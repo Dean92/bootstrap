@@ -13,6 +13,8 @@ namespace Northwind
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleTable.EnableOptimizations = true;
+            
         }
     }
 }
